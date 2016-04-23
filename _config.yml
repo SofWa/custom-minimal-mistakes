@@ -63,34 +63,34 @@ google_ad_slot           :
 
 # Site Author
 author: SofWa
-  name             : 
-  avatar           : 
-  bio              : 
-  location         : 
-  email            : 
-  uri              : 
-  bitbucket        :
-  codepen          :
-  dribbble         :
-  flickr           :
-  facebook         : 
-  foursquare       :
-  github           : 
-  google_plus      :
-  keybase          :
-  instagram        : 
-  lastfm           :
-  linkedin         :
-  pinterest        :
-  soundcloud       :
-  stackoverflow    : # http://stackoverflow.com/users/123456/username
-  steam            :
-  tumblr           :
-  twitter          : 
-  vine             :
-  weibo            :
-  xing             :
-  youtube          :
+#  name             : 
+#  avatar           : 
+#  bio              : 
+#  location         : 
+#  email            : 
+#  uri              : 
+#  bitbucket        :
+#  codepen          :
+#  dribbble         :
+#  flickr           :
+#  facebook         : 
+#  foursquare       :
+#  github           : 
+#  google_plus      :
+#  keybase          :
+#  instagram        : 
+#  lastfm           :
+#  linkedin         :
+#  pinterest        :
+#  soundcloud       :
+#  stackoverflow    : # http://stackoverflow.com/users/123456/username
+#  steam            :
+#  tumblr           :
+#  twitter          : 
+#  vine             :
+#  weibo            :
+#  xing             :
+#  youtube          :
 
 
 # Reading Files
