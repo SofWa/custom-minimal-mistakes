@@ -178,7 +178,7 @@ defaults:
       related: true
   # _listpages
   - scope:
-      path: "listpage"
+      path: ""
       type: listpages
     values:
       layout: single
