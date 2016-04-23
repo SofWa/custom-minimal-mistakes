@@ -11,8 +11,7 @@ sidebar:
 
 {% for category in site.categories %}
   {% capture cate %}{{ category | first }}{% endcapture %}
-  {% capture cate-down %}{{ {{ cate }} | downcase }}{% endcapture %}
-  {{ cate-down }}
-  {% capture cate-re %}{{ {{ cate-down }} | replace: '&nbsp;', '&#45;' }}{% endcapture %}
+  {% capture cate-down %}{{ cate | downcase }}{% endcapture %}
+  {% capture cate-re %}{{ cate-down | replace: '&nbsp;', '&#45;' }}{% endcapture %}
   <h3><a href="/categories/#{{ cate-re }}">{{ category | first }}</a></h3>
 {% endfor %}
