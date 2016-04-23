@@ -9,7 +9,7 @@
 locale                   : "ko-KR"
 title                    : "SofWa's Blog"
 title_separator          : "|"
-name                     : &name "SofWa"
+name                     : "SofWa"
 description              : &description "SofWa's Blog"
 url                      : http://sofwa.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
@@ -62,10 +62,10 @@ google_ad_slot           :
 
 
 # Site Author
-author:
+author: SofWa
   name             : *name
-  avatar           : "michael-rose.jpg"
-  bio              : "Just another boring, tattooed, time traveling, designer."
+  avatar           : *avatar
+  bio              : *bio
   location         : 
   email            : *email
   uri              : 
@@ -75,7 +75,7 @@ author:
   flickr           :
   facebook         : 
   foursquare       :
-  github           : "SofWa"
+  github           : *SofWa
   google_plus      :
   keybase          :
   instagram        : 
