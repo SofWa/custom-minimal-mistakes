@@ -29,7 +29,3 @@ main:
 
 # categories navigations
 category:
-  {% for cate in page.category %}
-  - title: "{{ cate }}"
-    url: /categories/#{{ cate }}
-  {% endfor %}
