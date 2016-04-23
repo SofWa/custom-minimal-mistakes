@@ -10,6 +10,7 @@ sidebar:
 {% include base_path %}
 
 {% for category in site.categories %}
-  {% capture cate %}{{ {{ category | first }} | downcase }}{% endcapture %}
-  <a href="/categories/#{{ cate | replace:'&nbsp;','&#45;' }}">{{ category | first }}</a>
+  {% capture cate %}{{ category | first }}{% endcapture %}
+  {% capture cate-down %}{{ {{ cate }} | downcase }}{% endcapture %}
+  <a href="/categories/#{{ cate-down | replace:'&nbsp;','&#45;' }}">{{ category | first }}</a>
 {% endfor %}
