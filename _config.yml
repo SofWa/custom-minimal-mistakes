@@ -178,7 +178,7 @@ defaults:
       related: true
   # _listpages
   - scope:
-      path: "/list/"
+      path: "list/"
       type: pages
     values:
       layout: archive
