@@ -178,6 +178,13 @@ defaults:
       related: true
   # _pages
   - scope:
+      path: "year-archive"
+      type: pages
+    values:
+      layout: single
+      author_profile: true    
+  # _pages
+  - scope:
       path: ""
       type: pages
     values:
