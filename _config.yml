@@ -7,7 +7,7 @@
 
 # Site Settings
 locale                   : "ko-KR"
-title                    : "SofWa's Blog"
+title                    : "기록 보관함"
 title_separator          : "|"
 name                     : &name "SofWa"
 description              : &description "SofWa's Blog"
