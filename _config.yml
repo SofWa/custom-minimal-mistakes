@@ -161,6 +161,9 @@ collections:
   portfolio:
     output: true
     permalink: /:collection/:path/
+  listpages:
+    output: true
+    permalink: /:collection/:path/
 
 
 # Defaults
