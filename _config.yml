@@ -9,7 +9,7 @@
 locale                   : "ko-KR"
 title                    : "SofWa's Blog"
 title_separator          : "|"
-name                     : "SofWa"
+name                     : &name "SofWa"
 description              : &description "SofWa's Blog"
 url                      : http://sofwa.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
@@ -62,35 +62,35 @@ google_ad_slot           :
 
 
 # Site Author
-author: SofWa
-#  name             : 
-#  avatar           : 
-#  bio              : 
-#  location         : 
-#  email            : 
-#  uri              : 
-#  bitbucket        :
-#  codepen          :
-#  dribbble         :
-#  flickr           :
-#  facebook         : 
-#  foursquare       :
-#  github           : 
-#  google_plus      :
-#  keybase          :
-#  instagram        : 
-#  lastfm           :
-#  linkedin         :
-#  pinterest        :
-#  soundcloud       :
-#  stackoverflow    : # http://stackoverflow.com/users/123456/username
-#  steam            :
-#  tumblr           :
-#  twitter          : 
-#  vine             :
-#  weibo            :
-#  xing             :
-#  youtube          :
+author:
+  name             : *name
+  avatar           : "bio-photo.jpg"
+  bio              : "좋은 프로그램을 만들기 위해 노력하자!"
+  location         : 
+  email            : 
+  uri              : 
+  bitbucket        :
+  codepen          :
+  dribbble         :
+  flickr           :
+  facebook         : 
+  foursquare       :
+  github           : "SofWa"
+  google_plus      :
+  keybase          :
+  instagram        : 
+  lastfm           :
+  linkedin         :
+  pinterest        :
+  soundcloud       :
+  stackoverflow    : # http://stackoverflow.com/users/123456/username
+  steam            :
+  tumblr           :
+  twitter          : 
+  vine             :
+  weibo            :
+  xing             :
+  youtube          :
 
 
 # Reading Files
