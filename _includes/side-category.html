@@ -1,0 +1,11 @@
+{% include base_path %}
+
+{% if page.side_category %}
+  <div class="sidebar sticky">
+  {% if page.sidebar %}
+    {% for page.category %}
+      {% if s.title %}<h3>{{ page.categories }}</h3>{% endif %}
+    {% endfor %}
+  {% endif %}
+  </div>
+{% endif %}
