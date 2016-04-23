@@ -1,4 +1,5 @@
 ---
+title: ye!
 permalink: /year-side-archive/
 ---
 
