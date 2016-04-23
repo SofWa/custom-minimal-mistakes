@@ -176,7 +176,6 @@ defaults:
       comments: true
       share: true
       related: true
-      side_category: true
   # _pages
   - scope:
       path: ""
@@ -195,7 +194,7 @@ defaults:
       share: false
       comments: false
       sidebar:
-        nav: "docs"
+        nav: "foo"
   # _recipes
   - scope:
       path: ""
