@@ -1,6 +1,6 @@
 ---
 title: "Posts by Year"
-permalink: /listpages/archive-list/
+permalink: /archive-list/
 layout: archive
 ---
 
