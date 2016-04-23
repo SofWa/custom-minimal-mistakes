@@ -176,10 +176,10 @@ defaults:
       comments: true
       share: true
       related: true
-  # _pages
+  # _listpages
   - scope:
       path: "listpage"
-      type: pages
+      type: listpages
     values:
       layout: single
       author_profile: false
