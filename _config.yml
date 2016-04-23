@@ -185,7 +185,7 @@ defaults:
       author_profile: true
   # _listpages
   - scope:
-      path: "list"
+      path: "/list/"
       type: pages
     values:
       layout: archive
