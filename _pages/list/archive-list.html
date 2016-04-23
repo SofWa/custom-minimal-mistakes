@@ -10,7 +10,7 @@ sidebar:
 {% include base_path %}
 
 {% for category in site.categories %}
-  post.url
+  {{ post.url }}
   <a href="/">{{ post.title }}</a>
   <li><a name="{{ category | first }}">{{ category | first }}</a>
     <ul>
