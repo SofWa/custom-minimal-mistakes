@@ -176,15 +176,6 @@ defaults:
       comments: true
       share: true
       related: true
-  # _listpages
-  - scope:
-      path: "list/"
-      type: pages
-    values:
-      layout: archive
-      author_profile: false
-      sidebar:
-        nav: "foo"
   # _pages
   - scope:
       path: ""
@@ -192,6 +183,15 @@ defaults:
     values:
       layout: single
       author_profile: true
+  # _listpages
+  - scope:
+      path: "list"
+      type: pages
+    values:
+      layout: archive
+      author_profile: false
+      sidebar:
+        nav: "foo"      
   # _docs
   - scope:
       path: ""
