@@ -261,10 +261,10 @@ whitelist:
 #  - <base_path/my-awesome-category/index.html ~> path: /
 categories:
   type: liquid
-  path: /categories/
+  path: /categories/#foo
 tags:
   type: liquid
-  path: /tags/
+  path: /tags/#foo
 # https://github.com/jekyll/jekyll-archives
 # jekyll-archives:
 #   enabled:
