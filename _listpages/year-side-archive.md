@@ -1,8 +1,8 @@
 ---
 title: ye!
-permalink: /year-side-archive/
+permalink: /year-archive/
 ---
 
 {% include base_path %}
 
-{% include year-archive.html %}
+
