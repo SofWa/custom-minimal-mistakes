@@ -168,7 +168,7 @@ defaults:
   # _posts
   - scope:
       path: ""
-      type: posts
+      type: posts  # directory name ex)_posts
     values:
       layout: single
       author_profile: true
