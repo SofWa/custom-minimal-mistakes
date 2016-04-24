@@ -33,7 +33,7 @@
 
 .masthead__menu {
   @include breakpoint($large) {
-    @include prefix(2.5 of 12);
+    @include prefix(1 of 12);
   }
 
   ul {
