@@ -9,23 +9,9 @@
         {% assign domain = base_path %}
         {% for category in group_names %}
           {% assign posts = group_items[forloop.index0] %}  
-          <li><a href="{{ domain }}/categories/" class="{{ active }}">{{ category }}({{ posts | size }})</a></li>
+          <li><a href="{{ domain }}/categories/{{ category | downcase | replace:' ','-' }}" class="{{ active }}">{{ category }}({{ posts | size }})</a></li>
         {% endfor %}
       </ul>
     </li>
-  </ul>
-</nav>
-
-
-<nav class="nav__list">
-  <header><h4 class="nav__title" style="padding: 0;">Category</h4></header>
-  <ul>
-    {% for category in group_names %}
-      {% assign posts = group_items[forloop.index0] %}
-      <li>
-          {% assign domain = base_path %}
-          <a href="{{ domain }}/categories/{{ category | downcase | replace:' ','-' }}"><span class="nav__sub-title">{{ category }} ({{ posts | size }})</span></a>
-      </li>
-    {% endfor %}
   </ul>
 </nav>
