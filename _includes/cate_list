@@ -1,12 +1,8 @@
 {% include group-by-array collection=site.posts field="categories" %}
 
-<nav class="nav__list">
-  <ul>
-    Category
-    
-    {% for category in group_names %}
-      {% assign posts = group_items[forloop.index0] %}
-      <li>{{ category }}</li>({{ posts | size }})
-    {% endfor %}
-  </ul>
-</nav>
+<h3>Category</h3>
+
+{% for category in group_names %}
+  {% assign posts = group_items[forloop.index0] %}
+  {{ category }}({{ posts | size }})
+{% endfor %}
