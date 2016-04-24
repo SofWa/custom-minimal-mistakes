@@ -13,9 +13,9 @@ sidebar:
     category: "show"
 ---
 
-<code>
 # recent post test
 
+<code>
 {% for post in site.categories[category_name] %}
     <li>{{ post.title }}</li>
 {% endfor %}
