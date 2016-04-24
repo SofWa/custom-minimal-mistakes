@@ -15,8 +15,8 @@ sidebar:
 
 # recent post test
 
-<code>
+<ul>
 {% for post in site.categories[category_name] %}
     <li>{{ post.title }}</li>
 {% endfor %}
-</code>
+</ul>
