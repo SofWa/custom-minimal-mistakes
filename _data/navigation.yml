@@ -21,7 +21,7 @@ foo:
 
 # main links links
 main:
-  - title: "Posts"
+  - title: "All Posts"
     url: /categories/
 
   - title: "About"
