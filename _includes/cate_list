@@ -2,6 +2,22 @@
 {% include group-by-array collection=site.posts field="categories" %}
 
 <nav class="nav__list">
+  <ul>
+    <li>
+      <span class="nav__sub-title">Category</span>
+      <ul>
+        {% assign domain = base_path %}
+        {% for category in group_names %}
+          {% assign posts = group_items[forloop.index0] %}  
+          <li><a href="{{ domain }}/categories/" class="{{ active }}">{{ category }}({{ posts | size }})</a></li>
+        {% endfor %}
+      </ul>
+    </li>
+  </ul>
+</nav>
+
+
+<nav class="nav__list">
   <header><h4 class="nav__title" style="padding: 0;">Category</h4></header>
   <ul>
     {% for category in group_names %}
