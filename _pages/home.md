@@ -2,7 +2,7 @@
 layout: single
 permalink: /
 header:
-  overlay_image: unsplash-image-7.jpg
+  overlay_image: mm-home-page-feature.jpg
 ---
 
 This page 
