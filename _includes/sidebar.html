@@ -20,7 +20,9 @@
     {% if page.sidebar.nav %}
       {% include nav_list nav=page.sidebar.nav %}
     {% endif %}
-    {% include cate_list %}
+    {% if page.sidebar.category %}
+      {% include cate_list %}
+    {% endif %}
   {% endif %}
   </div>
 {% endif %}
