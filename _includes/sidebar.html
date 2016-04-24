@@ -20,11 +20,14 @@
     {% if page.sidebar.nav %}
       {% include nav_list nav=page.sidebar.nav %}
     {% endif %}
+    
+    {% include group-by-array collection=site.posts field="categories" %}
     <h3> Category </h3>
-    {% for category in site.categories %}
-      {% capture category-name %}{{ category }}{% encapture %}
-      <a href="">{{ category | first }}</a>({{ categoy.category-name | size }})
+    {% for category in group_names %}
+      {% assign posts = group_items[forloop.index0] %}
+      <h2 id="{{ category | slugify }}" class="archive__subtitle">{{ category }}</h2>({{ posts | size }})
     {% endfor %}
+
   {% endif %}
   </div>
 {% endif %}
