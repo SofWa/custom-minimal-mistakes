@@ -13,10 +13,10 @@ sidebar:
     category: "show"
 ---
 
-```html
+<code>
 # recent post test
 
 {% for post in site.categories[category_name] %}
     <li>{{ post.title }}</li>
 {% endfor %}
-```
+</code>
