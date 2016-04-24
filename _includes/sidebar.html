@@ -22,7 +22,7 @@
     {% endif %}
     <h3> Category </h3>
     {% for category in site.categories %}
-      <a href="">{{ category | first }}</a> ({{ category.CAT | size }})
+      <a href="">{{ category | first }}</a> ({{ category | size }})
     {% endfor %}
   {% endif %}
   </div>
