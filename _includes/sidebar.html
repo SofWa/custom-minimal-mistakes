@@ -24,7 +24,7 @@
     {% for category in site.categories %}
       <h3>{{ s.title }}</h3>
       {{ s.text | markdownify }}
-      <a name="{{ category | first }}">{{ category | first }}</a>
+      {{ category | first }}
     {% endfor %}
   {% endif %}
   </div>
