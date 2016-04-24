@@ -20,6 +20,11 @@
     {% if page.sidebar.nav %}
       {% include nav_list nav=page.sidebar.nav %}
     {% endif %}
+    {% if page.sidebar.category == true %}
+      {% for category in site.categories %}
+        <a name="{{ category | first }}">{{ category | first }}
+      {% endfor %}
+    {% endif %}
   {% endif %}
   </div>
 {% endif %}
