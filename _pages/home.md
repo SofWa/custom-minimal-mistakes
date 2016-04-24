@@ -2,7 +2,7 @@
 layout: single
 permalink: /
 header:
-  overlay_image: mm-home-page-feature.jpg
+  image: mm-home-page-feature.jpg
 ---
 
 This page 
