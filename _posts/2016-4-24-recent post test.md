@@ -3,6 +3,7 @@ title:  "Recent Post Test!!"
 categories: 
   - test
 
+author_profile: false
 sidebar:
   - title: "Title"
     image: http://placehold.it/350x250
@@ -12,8 +13,6 @@ sidebar:
     text: "More text here."
     category: "show"
 ---
-
-# recent post test
 
 <ul>
 {% for post in site.categories[category_name] %}
