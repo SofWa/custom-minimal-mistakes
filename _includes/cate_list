@@ -24,7 +24,7 @@
       {% assign posts = group_items[forloop.index0] %}
       <li>
           {% assign domain = base_path %}
-          <a href="{{ domain }}{{ category.path }}"><span class="nav__sub-title">{{ category }}({{ posts | size }})</span></a>
+          <a href="{{ domain }}{{ category | downcase | replace:' ','-' }}"><span class="nav__sub-title">{{ category }}({{ posts | size }})</span></a>
       </li>
     {% endfor %}
   </ul>
