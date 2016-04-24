@@ -10,6 +10,7 @@ sidebar:
     text: "Some text here."
   - title: "Another Title"
     text: "More text here."
+    category: true
 ---
 
 # recent post test
