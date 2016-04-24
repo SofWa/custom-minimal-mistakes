@@ -4,5 +4,5 @@
 
 {% for category in group_names %}
   {% assign posts = group_items[forloop.index0] %}
-  <p style="margin-top: 5px;">{{ category }}({{ posts | size }})</p>
+  <p style="margin-top: 5px;margin-bottom: 1px;">{{ category }}({{ posts | size }})</p>
 {% endfor %}
