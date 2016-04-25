@@ -73,13 +73,4 @@ $(document).ready(function(){
     midClick: true // allow opening popup on middle mouse click. Always set it to true if you don't provide alternative source.
   });
 
-  $('.masthead__menu-item').on({
-      'touchstart': function () {
-          $(this).trigger('hover');
-      },
-      'touchend': function () {
-          $(this).trigger('hover');
-      }
-  });
-
 });
