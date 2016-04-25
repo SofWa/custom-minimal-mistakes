@@ -1,5 +1,4 @@
 ---
-title: welcome
 layout: single
 auto_profile: true
 permalink: /
