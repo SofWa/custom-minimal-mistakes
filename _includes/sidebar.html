@@ -23,6 +23,9 @@
     {% if page.sidebar.category %}
       {% include cate_list %}
     {% endif %}
+    {% if page.sidebar.year %}
+      {% include year_list %}
+    {% endif %}
   {% endif %}
   </div>
 {% endif %}
