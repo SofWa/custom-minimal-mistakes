@@ -14,3 +14,5 @@ header:
 {% for post in paginator.posts limit 5 %}
   {% include archive-single.html %}
 {% endfor %}
+
+{% include paginator.html %}
