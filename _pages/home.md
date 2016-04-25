@@ -1,5 +1,5 @@
 ---
-layout: splash
+layout: single
 permalink: /
 header:
   image: unsplash-image-7.jpg
