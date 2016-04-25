@@ -7,8 +7,8 @@ header:
   caption: "Photo credit: [**Unsplash**](https://unsplash.com)"
 ---
 
-This post should display a **header image**, if the theme supports it.
+<h3 class="archive__subtitle">Recent Posts</h3>
 
-Non-square images can provide some unique styling issues.
-
-This post tests a horizontal header image.
+{% for post in paginator.posts %}
+  {% include archive-single.html %}
+{% endfor %}
