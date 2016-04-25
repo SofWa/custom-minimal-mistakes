@@ -1,15 +1,13 @@
 {% include base_path %}
-{% include group-by-array collection=site.posts field="categories" %}
 
 <nav class="nav__list">
   <ul>
     <li>
-      <span class="nav__sub-title">Category</span>
-      <ul>
-        {% assign domain = base_path %}
-        {% for category in group_names %}
-          {% assign posts = group_items[forloop.index0] %}  
-          <li><a href="#{{ category | downcase | replace:' ','-' }}">{{ category }} ({{ posts | size }})</a></li>
+      <span class="nav__sub-title">Year</span>
+      <ul
+        {% for post in site.posts %}
+          {% capture year %}{{ post.date | date: '%Y' }}{% endcapture %}
+          <li><a href="#{{ year }}">{{ year }} ({{ post | size }})</a></li>
         {% endfor %}
       </ul>
     </li>
