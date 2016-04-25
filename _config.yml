@@ -8,7 +8,7 @@
 # Site Settings
 locale                   : "ko-KR"
 title                    : "SofWa의 기록 보관함"
-title_separator          : "|"
+title_separator          : "-"
 name                     : &name "SofWa"
 description              : &description "SofWa's Blog"
 url                      : http://sofwa.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
