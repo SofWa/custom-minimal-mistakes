@@ -28,6 +28,6 @@ feature_row:
 
 <h3 class="archive__subtitle">Recent Posts</h3>
 
-{% for post in site.posts limit:5 %}
+{% for post in site.posts limit:4 %}
   {% include archive-single.html %}
 {% endfor %}
