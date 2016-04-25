@@ -6,7 +6,6 @@
     <li>
       <span class="nav__sub-title">Category</span>
       <ul>
-        {% assign domain = base_path %}
         {% for category in group_names %}
           {% assign posts = group_items[forloop.index0] %}  
           <li><a href="#{{ category | downcase | replace:' ','-' }}">{{ category }} ({{ posts | size }})</a></li>
