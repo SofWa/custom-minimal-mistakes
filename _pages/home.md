@@ -11,6 +11,6 @@ header:
 
 <h3 class="archive__subtitle">Recent Posts</h3>
 
-{% for post in paginator.posts | limit 5 %}
+{% for post in paginator.posts limit 5 %}
   {% include archive-single.html %}
 {% endfor %}
