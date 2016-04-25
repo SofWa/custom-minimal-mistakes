@@ -1,5 +1,6 @@
 ---
 layout: single
+title: index
 permalink: /
 header:
   image: unsplash-image-7.jpg
