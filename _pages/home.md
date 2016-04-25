@@ -1,5 +1,5 @@
 ---
-layout: single
+layout: archive
 auto_profile: true
 permalink: /
 header:
