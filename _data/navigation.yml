@@ -21,8 +21,11 @@ foo:
 
 # main links links
 main:
-  - title: "All Posts"
+  - title: "Category Posts"
     url: /categories/
+
+  - title: "Recent Posts"
+    url: /year-archive/
 
   - title: "About"
     url: /about/
