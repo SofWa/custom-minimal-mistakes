@@ -1,6 +1,7 @@
 ---
 title: welcome
-layout: archive
+layout: single
+auto_profile: true
 permalink: /
 header:
   image: unsplash-image-7.jpg
