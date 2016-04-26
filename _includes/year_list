@@ -11,19 +11,20 @@
         {% capture next_year %}{{ post.previous.date | date: "%Y" }}{% endcapture %}
 
         {% if forloop.first %}
-          <li>{{ this_year }}</li>
+          <li>{{ this_year }}
         {% endif %}
-         
+        
         {% if forloop.last %}
+          ({{ count }})</li>
           </ul>
+        {% endif %}
+        
+        {% if this_year != next_year %}
+          ({{ count }})</li>
+          <li>{{ next_year }}
+          {% capture count %}{{ count=0 }}{% endcapture %}
         {% else %}
-          {% if this_year != next_year %}
-            ({{ count }})
-            <li>{{ next_year }}</li>
-            {% capture count %}{{ count=0 }}{% endcapture %}
-          {% else %}
-            {% capture count %}{{ count | plus:1 }}{% endcapture %}
-          {% endif %}
+          {% capture count %}{{ count | plus:1 }}{% endcapture %}
         {% endif %}
       {% endfor %}
     </li>
