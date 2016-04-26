@@ -7,11 +7,11 @@
 
 # Site Settings
 locale                   : "ko-KR"
-title                    : "SofWa의 기록 보관함"
+title                    : "부족한 뇌의 외부 저장소"
 title_separator          : "-"
 name                     : &name "SofWa"
 description              : &description "SofWa's Blog"
-url                      : http://sofwa.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+url                      : http://swcode.net # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 gh_repo                  : "https://github.com/SofWa/sofwa.github.io/blob"
 teaser                   : # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
@@ -40,7 +40,7 @@ facebook:
   username               : 
   app_id                 :
   publisher              :
-og_image                 : "site-logo.png" # Open Graph/Twitter default site image
+og_image                 : "GitHub-logo.png" # Open Graph/Twitter default site image
 # For specifying social profiles
 # - https://developers.google.com/structured-data/customize/social-profiles
 social:
