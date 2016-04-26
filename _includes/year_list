@@ -6,11 +6,11 @@
       <span class="nav__sub-title">Year</span>
       {% for post in site.posts  %}
         {% capture this_year %}{{ post.date | date: "%Y" }}{% endcapture %}
-    
+        
         <ul>
-        {% if forloop.first %}
-          <li>{{this_year}}</li>
-        {% endif %}
+          
+            <li>{{this_year}}</li>
+          
         </ul>
       {% endfor %}
     </li>
