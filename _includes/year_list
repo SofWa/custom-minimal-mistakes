@@ -19,6 +19,7 @@
           <li>{{ next_year }}
           {% capture count %}{{ count=0 }}{% endcapture %}
           {% if forloop.last %}
+            {% capture count %}{{ count | plus:1 }}{% endcapture %}
             </li>
             </ul>
           {% endif %}
