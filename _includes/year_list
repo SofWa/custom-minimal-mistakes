@@ -14,17 +14,18 @@
           <li>{{ this_year }}
         {% endif %}
         
-        {% if this_year != next_year %}
-          ({{ count }})</li>
-          <li>{{ next_year }}
-          {% capture count %}{{ count=0 }}{% endcapture %}
-          {% if forloop.last %}
-            {% capture count %}{{ count | plus:1 }}{% endcapture %}
+        {% if forloop.last %}
+          {% capture count %}{{ count | plus:1 }}{% endcapture %}
             </li>
             </ul>
-          {% endif %}
         {% else %}
-          {% capture count %}{{ count | plus:1 }}{% endcapture %}
+          {% if this_year != next_year %}
+            ({{ count }})</li>
+            <li>{{ next_year }}
+            {% capture count %}{{ count=0 }}{% endcapture %}
+          {% else %}
+            {% capture count %}{{ count | plus:1 }}{% endcapture %}
+          {% endif %}
         {% endif %}
       {% endfor %}
     </li>
