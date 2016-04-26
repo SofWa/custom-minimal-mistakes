@@ -16,7 +16,7 @@
         
         {% if forloop.last %}
           {% capture count %}{{ count | plus:1 }}{% endcapture %}
-          <li>{{ next_year }}</li>
+          ({{ count }})</li>
           </ul>
         {% else %}
           {% if this_year != next_year %}
