@@ -13,8 +13,11 @@
         {% if forloop.first %}
           <li>{{ this_year }}</li>
         {% endif %}
+        
+        {% if forloop.last %}
+          </ul>
+        {% endif %}
       {% endfor %}
-      </ul>
     </li>
   </ul>
 </nav>
