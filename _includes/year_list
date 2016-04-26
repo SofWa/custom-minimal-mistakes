@@ -13,8 +13,6 @@
         {% if forloop.first %}
           <li>{{ this_year }}</li>
         {% endif %}
-    
-        <li><a href="{{ post.url }}">{{ post.title }}</a></li>
       {% endfor %}
     </li>
   </ul>
