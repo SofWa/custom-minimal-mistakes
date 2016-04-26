@@ -27,8 +27,5 @@ main:
   - title: "Recent Posts"
     url: /year-archive/
 
-  - title: "About"
-    url: /about/
-
 # categories navigations
 category:
