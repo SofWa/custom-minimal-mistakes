@@ -6,7 +6,7 @@ categories:
 ---
 ## am/is/are
 
-| Positive									 |||
+|Positive|||
 |---:|:----:|:---|
 |I|am|I'm|
 |he|is|he's|
@@ -15,6 +15,3 @@ categories:
 |we|are|we're|
 |you||you're|
 |they||they're|
-[tables]
-
-[table][tables].
