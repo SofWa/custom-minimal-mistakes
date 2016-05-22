@@ -8,7 +8,7 @@ categories:
 
 <table>
 	<tr>
-    	<td colspan="3">**Positive**</td>
+    	<td colspan="3"><strong>Positive</strong></td>
     </tr>
     <tr>
     	<td>I</td>
