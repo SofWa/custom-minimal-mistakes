@@ -8,12 +8,12 @@ categories:
 
 <table>
 	<tr>
-    	<td colspan="3">Positive</td>
+    	<th colspan="3" style="text-align: left">Positive</th>
     </tr>
     <tr>
-    	<td style="width: 25%">I</td>
-        <td style="width: 25%">am</td>
-        <td style="width: 25%">I'am</td>
+    	<td>I</td>
+        <td>am</td>
+        <td>I'am</td>
     </tr>
     <tr>
     	<td>he</td>
@@ -42,8 +42,3 @@ categories:
         <td>they're</td>
     </tr>
 </table>
-
-|sdf|sdf|sf|
-|---|---|---|
-|sdf|sdf|sdf|
-|sf|sf|sf|
