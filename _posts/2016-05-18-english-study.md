@@ -16,11 +16,6 @@ categories:
         <td style="width: 25%">I'am</td>
     </tr>
     <tr>
-    	<td>I</td>
-        <td>am</td>
-        <td>I'am</td>
-    </tr>
-    <tr>
     	<td>he</td>
         <td rowspan="3">is</td>
         <td>he's</td>
@@ -47,3 +42,8 @@ categories:
         <td>they're</td>
     </tr>
 </table>
+
+|sdf|sdf|sf|
+|---|---|---|
+|sdf|sdf|sdf|
+|sf|sf|sf|
