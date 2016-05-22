@@ -6,12 +6,44 @@ categories:
 ---
 ## am/is/are
 
-|Positive|||
-|---:|:----:|:---|
-|I|am|I'm|
-|he|is|he's|
-|she||she's|
-|it||it's|
-|we|are|we're|
-|you||you're|
-|they||they're|
+<table>
+	<tr>
+    	<td colspan="3">Positive</td>
+    </tr>
+    <tr>
+    	<td style="width: 25%">I</td>
+        <td style="width: 25%">am</td>
+        <td style="width: 25%">I'am</td>
+    </tr>
+    <tr>
+    	<td>I</td>
+        <td>am</td>
+        <td>I'am</td>
+    </tr>
+    <tr>
+    	<td>he</td>
+        <td rowspan="3">is</td>
+        <td>he's</td>
+    </tr>
+    <tr>
+    	<td>she</td>
+        <td>she's</td>
+    </tr>
+    <tr>
+    	<td>it</td>
+        <td>it's</td>
+    </tr>
+    <tr>
+    	<td>we</td>
+        <td rowspan="3">are</td>
+        <td>we're</td>
+    </tr>
+    <tr>
+    	<td>you</td>
+        <td>you're</td>
+    </tr>
+    <tr>
+    	<td>they</td>
+        <td>they're</td>
+    </tr>
+</table>
