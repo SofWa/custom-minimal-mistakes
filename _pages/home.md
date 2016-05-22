@@ -3,7 +3,7 @@ layout: archive
 auto_profile: true
 permalink: /
 header:
-  image: unsplash-image-0.jpg
+  image: https://source.unsplash.com/random/1600x500
   caption: "Photo credit: [**Unsplash**](https://unsplash.com)"
 ---
 
