@@ -17,8 +17,10 @@ layout: compress
     {% include masthead.html %}
 
     {{ content }}
-
-    {% include google_adsense.html %}
+	
+	{% if site.google_ad_client != false %}
+		{% include google_adsense.html %}
+	{% endif %}
 
     <div class="page__footer">
       <footer>
