@@ -22,7 +22,7 @@ foo:
 # main links links
 main:
   - title: "Category Archive"
-    url: /category-archive/
+    url: /categories/
 
   - title: "Year Archive"
-    url: /year-archive/
+    url: /years/
