@@ -5,7 +5,8 @@ categories:
     - c
     - study
 ---
-## c언어 버블정렬  
+
+c언어 버블정렬 소스
 
 ```c
 /*
